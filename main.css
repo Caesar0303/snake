@@ -1,0 +1,48 @@
+body{
+    color: #fff;
+    background-color: #293133;
+}
+
+#world {
+    box-shadow: 5;
+    display: block;
+margin-left: auto;
+margin-right: auto }
+
+#score_tab {
+    border-radius: 5px;
+    background-color: #A5260A;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+#record_tab {
+    border-radius: 5px;
+    background-color: #A5260A;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+#wrapper {
+    display: flex;
+    margin-top: 150px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#snake2 {
+    left: 800px;
+    top: 800px;
+    background-color: red;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+#world2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
